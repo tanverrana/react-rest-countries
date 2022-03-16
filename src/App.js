@@ -2,15 +2,25 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import Countries from './components/Countries/Countries';
 
 function App() {
   return (
     <div className="App">
-      <LoadCountries></LoadCountries>
+      {/* <LoadCountries></LoadCountries> */}
+
+      <Countries></Countries>
     </div>
   );
 }
-function LoadCountries() {
+
+
+
+
+
+
+
+/* function LoadCountries() {
   const [countries, setCountries] = useState([]);
   useEffect(() => {
     fetch("https://restcountries.com/v3.1/all")
@@ -35,6 +45,6 @@ function Country(props) {
       <h2>Population:<span className="country-name">{props.population}</span></h2>
     </div>
   )
-}
+} */
 
 export default App;
