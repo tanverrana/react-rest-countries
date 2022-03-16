@@ -3,6 +3,7 @@ import './App.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import Countries from './components/Countries/Countries';
+import Header from './components/Header/Header';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* <LoadCountries></LoadCountries> */}
 
       <Countries></Countries>
+      <Header></Header>
     </div>
   );
 }
