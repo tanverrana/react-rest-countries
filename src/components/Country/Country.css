@@ -1,0 +1,9 @@
+.country-style{
+    background-color: rgb(171, 211, 119);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
