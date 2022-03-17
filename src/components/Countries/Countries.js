@@ -15,9 +15,10 @@ const Countries = () => {
         <div>
             <h1>Total Countries: {countries.length}</h1>
             {
-                countries.map(country => <Country name={country.name.common}
-                    flag={country.flag}
-                    capital={country.capital}></Country>)
+                countries.map(country => <Country
+                    country={country}
+                    name={country.name.common}
+                ></Country>)
             }
         </div>
     );
