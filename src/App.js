@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Countries from './components/Countries/Countries';
+import Footer from './components/Footer/Footer';
 // import { useState } from 'react';
 // import { useEffect } from 'react';
 // import Countries from './components/Countries/Countries';
@@ -14,6 +15,7 @@ function App() {
       {/*   <Countries></Countries>
       <Header></Header> */}
       <Countries></Countries>
+      <Footer></Footer>
 
     </div>
   );
