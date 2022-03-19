@@ -2,6 +2,7 @@
 import './App.css';
 import Countries from './components/Countries/Countries';
 import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 // import { useState } from 'react';
 // import { useEffect } from 'react';
 // import Countries from './components/Countries/Countries';
@@ -14,6 +15,7 @@ function App() {
 
       {/*   <Countries></Countries>
       <Header></Header> */}
+      <Header></Header>
       <Countries></Countries>
       <Footer></Footer>
 

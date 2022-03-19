@@ -6,7 +6,7 @@ const Country = (props) => {
     const { population, area } = props.country;
 
     return (
-        <div className="country">
+        <div className="country bg-info">
             <h2>Country Name:{props.name}</h2>
             <h2 className="flag">Flag:{props.country.flag}</h2>
             <h2>Capital:{props.country.capital}</h2>
